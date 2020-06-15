@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArbyteFlix</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>ArbyteFlix-Peça sua serie</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,8 +15,7 @@
         <a class="navbar-brand" href="#">
             <img src="img/logoarbyteflix.png" width="150" height="50" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -27,12 +25,12 @@
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>                
+                    <a class="nav-link" href="about.html">Peça sua serie</a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Procure sua serie" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Procurar</button>
             </form>
         </div>
     </nav>
@@ -47,19 +45,47 @@
         </div>
     </div>
 
-      <!-- Inicio do Footer -->
+    <div class="container contact-form">
+        <div class="contact-image">
+            <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+        </div>
+        <form method="post">
+            <h3>Peça sua serie aqui</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="txtName" class="form-control" placeholder="Seu nome *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtEmail" class="form-control" placeholder="Seu e-mail *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtPhone" class="form-control" placeholder="Digite o nome da série *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="btnSubmit" class="btnContact" value="Enviar Formulário" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" placeholder="Digite a a resenha sobre a série que quer ver no nosso site, e logo ela poderá estar aqui :) *" style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 
-      <footer class="new_footer_area bg_color">
+    <!-- Inicio do Footer -->
+
+    <footer class="new_footer_area bg_color">
         <div class="new_footer_top">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
-                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
-                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
                             <h3 class="f-title f_600 t_color f_size_18">ArbyteFlix</h3>
                             <p>O melhor blog de filmes da Arbyte!</p>
-                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true"
-                                _lpchecked="1">
+                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
                                 <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
                                 <button class="btn btn_get btn_get_two" type="submit">Receba as novidades</button>
                                 <p class="mchimp-errmessage" style="display: none;"></p>
@@ -68,8 +94,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
-                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
                             <h3 class="f-title f_600 t_color f_size_18">Download</h3>
                             <ul class="list-unstyled f_list">
                                 <li><a href="#">Windows</a></li>
@@ -82,8 +107,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
-                            style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
                             <h3 class="f-title f_600 t_color f_size_18">Conheça mais</h3>
                             <ul class="list-unstyled f_list">
                                 <li><a href="#">Quem somos</a></li>
@@ -96,8 +120,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
-                            style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
                             <h3 class="f-title f_600 t_color f_size_18">Nossas Redes Sociais</h3>
                             <div class="f_social_icon">
                                 <a href="#" class="fab fa-facebook"></a>
@@ -130,15 +153,9 @@
     <!-- Fim do Footer -->
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>
